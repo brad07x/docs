@@ -1,3 +1,15 @@
+# FORKED PROJECT - FOR TESTING ONLY
+Forked from [sismics/docs](https://github.com/sismics/docs).
+
+Testing multiarch image build for ARM64.
+
+Support the following platforms:
+- linux/amd64
+- linux/arm64
+- linux/arm/v7
+
+---
+
 <h3 align="center">
   <img src="https://teedy.io/img/github-title.png" alt="Teedy" width=500 />
 </h3>

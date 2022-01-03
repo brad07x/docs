@@ -1,5 +1,14 @@
-FROM sismics/ubuntu-jetty:9.4.36
-LABEL maintainer="b.gamard@sismics.com"
+# Based on brad07x/ubuntu-jetty (multiarch)
+FROM brad07x/ubuntu-jetty:9.4.36
+
+# Image Metadata
+LABEL org.opencontainers.image.authors="bstevens@havensight.net" \
+      org.opencontainers.image.created="2022-01-02T18:12:34-05:00" \
+      org.opencontainers.image.source="https://github.com/brad07x/docs" \
+      org.opencontainers.image.documentation="https://github.com/brad07x/docs" \
+      org.opencontainers.image.version="0.1.0-alpha" \
+      org.opencontainers.image.title="Unofficial Ubuntu Teedy (Sismics Docs) Multiarch Image" \
+      org.opencontainers.image.description="Unofficial Ubuntu Teedy (Sismics Docs) Multiarch Image"
 
 RUN apt-get update && \
     apt-get -y -q --no-install-recommends install \
